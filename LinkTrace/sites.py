@@ -127,6 +127,7 @@ class SitesInformation():
             try:
                 response = requests.get(url=data_file_path)
             except Exception as error:
+                print(data_file_path)
                 raise FileNotFoundError(f"Problem while attempting to access "
                                         f"data file URL '{data_file_path}':  "
                                         f"{str(error)}"
