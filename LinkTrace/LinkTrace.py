@@ -525,18 +525,17 @@ def main():
                         help="Force the use of the local data.json file.")
 
     #args = parser.parse_args()
-    sys.argv = ['LinkTrace.py','-o','test.txt',get_username]
+    sys.argv = ['LinkTrace.py','-o',get_username+'.txt',get_username]
     args = parser.parse_args()
     # Check for newer version of LinkTrace. If it exists, let the user know about it
     try:
-        r = requests.get("https://raw.githubusercontent.com/sherlock-project/sherlock/master/sherlock/sherlock.py")
+        r = requests.get("https://raw.githubusercontent.com/prorajnikant/LinkTrace/master/LinkTrace/LinkTrace.py")
 
         remote_version = str(re.findall('__version__ = "(.*)"', r.text)[0])
         local_version = __version__
 
         if remote_version != local_version:
-            print("Update Available!\n" +
-                  f"You are running version {local_version}. Version {remote_version} is available at https://git.io/sherlock")
+            print("Update Available!\n")
 
     except Exception as error:
         print(f"A problem occured while checking for an update: {error}")
@@ -569,7 +568,7 @@ def main():
     # Create object with all information about sites we are aware of.
     try:
         if args.local:
-            sites = SitesInformation(requests.get("https://raw.githubusercontent.com/prorajnikant/sherlock_test1/master/sherlock/resources/data.json"))
+            sites = SitesInformation(requests.get("https://raw.githubusercontent.com/prorajnikant/LinkTrace/master/LinkTrace/resources/data.json"))
         else:
             sites = SitesInformation(args.json_file)
     except Exception as error:

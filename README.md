@@ -22,21 +22,23 @@ The GUI makes eveything more understandable and aesthetically pleasing.
 
 ## 📜 Instructions For Localhost / CLI Version
 
-**Step 1)** Clone the LinkTrace repo using $$$$$ `git clone https://github.com/prorajnikant/sherlock_test1.git`
+**Step 1)** Clone the LinkTrace repo using `git clone https://github.com/prorajnikant/LinkTrace.git`
 
-**Step 2)** Open a command prompt in the project directory. Enter the command: `pip install -r requirements.txt`
+**Step 2)** Move in the 'linktrace' folder using `cd LinkTrace`
 
-**Step 3)** Move in the 'linktrace' folder using `cd linktrace`
+**Step 3)**Download the python3 requirements. Enter the command: `pip install -r requirements.txt`
 
-**Step 4)** Run the following 2 commands:
+**Step 4)** Move in the 'LinkTrace' sub-folder using `cd LinkTrace`
+
+**Step 5)** Run the following 2 commands:
 
 ```
-set FLASK_APP=linktrace.py
+set FLASK_APP=LinkTrace.py
 
 flask run
 ```
 
-**Step 5)** Open your browser and visit `http://localhost:5000/` You can keep the command prompt open if needed because results will be displayed there too.
+**Step 5)** Open your browser and visit `http://localhost:5000/`
 
 **Step 6)** Search for the required username.
 
