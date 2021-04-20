@@ -107,8 +107,8 @@ class SitesInformation():
         Nothing.
         """
         try:
-            print("IN TRY")
             data_file_path = os.getcwd()+"/resources/data.json"
+            print("IN TRY")
         except:
             print("IN EXCEPT")
             pass
