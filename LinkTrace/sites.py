@@ -107,12 +107,12 @@ class SitesInformation():
         Nothing.
         """
         try:
-            data_file_path = os.getcwd()+"/resources/data.json"
+            #data_file_path = os.getcwd()+"/resources/data.json"
+            data_file_path=None
             print("IN TRY")
         except:
             print("IN EXCEPT")
             pass
-        print(data_file_path)
         if data_file_path is None:
             # The default data file is the live data.json which is in the GitHub repo. The reason why we are using
             # this instead of the local one is so that the user has the most up to date data. This prevents
