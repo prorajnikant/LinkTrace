@@ -1,0 +1,13 @@
+body
+{
+    background: black;
+    color: beige;
+}
+#table
+{
+    border: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px;
+    background-image: linear-gradient(45deg,rgba(205,92,196,0.75), rgba(198,96,232,0.8));
+}

@@ -1,0 +1,116 @@
+body {
+    width: 100%;
+    background: black;
+}
+#particles-js {
+    position : absolute;
+    width:100%;
+    height:100%;
+    z-index:-2;
+}
+.black
+{
+    position: relative;
+    height: 450px;
+    background: linear-gradient(0deg,black,rgb(44,43,47));
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+.glow::before , .glow::after
+{
+    content: ''; 
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    right: 2px;
+    background: linear-gradient(45deg , #e6fb04, #ff6600, #00ff66, #00ff44, #ff00ff, #ff0090, #06e0dd, #ff3300, #099fff);
+    background-size: 200%;
+    width:  100% + 2px;
+    height: 455px;
+    z-index: -1;
+    animation: animate 20s linear infinite;
+
+}
+@keyframes animate
+{
+    0% 
+    {
+        background-position: 0 0;
+    }
+    50%
+    {
+        background-position: 400% 0;
+    }
+    100%
+    {
+        background-position: 0 0;
+    }
+}
+.glow::after
+{
+    filter: blur(150px);
+    opacity: 0.5;
+}
+#searchbar{
+    margin: auto;
+    background-color: beige;
+    color: #374a67;
+    font-family: consolas;
+    margin-bottom: 20px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: block;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+h1
+{
+    font-size: 80px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: beige;
+    font-family: consolas;
+}
+#filtersdivision
+{
+    text-align: center;
+    font-family: consolas;
+    color: beige;
+}
+.btn
+{
+    background-color: #f13548;
+  border: none;
+  color: beige;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.submitbtn
+{
+    text-align: center;
+    margin: 30px;
+}
+.btn:hover
+{
+    background-color: #db5461;
+}
+.check
+{
+   margin: 10px;
+}
+
