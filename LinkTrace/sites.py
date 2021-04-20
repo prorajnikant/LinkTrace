@@ -116,8 +116,8 @@ class SitesInformation():
             # The default data file is the live data.json which is in the GitHub repo. The reason why we are using
             # this instead of the local one is so that the user has the most up to date data. This prevents
             # users from creating issue about false positives which has already been fixed or having outdated data
-            data_file_path = "https://raw.githubusercontent.com/prorajnikant/LinkTrace/master/LinkTrace/sites.py"
-
+            data_file_path = "https://raw.githubusercontent.com/prorajnikant/LinkTrace/master/LinkTrace/resources/data.json"
+            print(data_file_path)
         # Ensure that specified data file has correct extension.
         if not data_file_path.lower().endswith(".json"):
             raise FileNotFoundError(f"Incorrect JSON file extension for data file '{data_file_path}'.")
@@ -127,7 +127,6 @@ class SitesInformation():
             try:
                 response = requests.get(url=data_file_path)
             except Exception as error:
-                print(data_file_path)
                 raise FileNotFoundError(f"Problem while attempting to access "
                                         f"data file URL '{data_file_path}':  "
                                         f"{str(error)}"
