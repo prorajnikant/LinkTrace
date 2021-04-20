@@ -26,7 +26,7 @@ The GUI makes eveything more understandable and aesthetically pleasing.
 
 **Step 2)** Move in the 'linktrace' folder using `cd LinkTrace`
 
-**Step 3)**Download the python3 requirements. Enter the command: `pip install -r requirements.txt`
+**Step 3)** Download the python3 requirements. Enter the command: `pip install -r requirements.txt`
 
 **Step 4)** Move in the 'LinkTrace' sub-folder using `cd LinkTrace`
 
