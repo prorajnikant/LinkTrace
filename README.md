@@ -2,7 +2,6 @@
 <img src="Screenshots/EyeLogo.png" alt="Logo" width="200"/>
 </center>
  
- 
 # LinkTrace - Username Finder
 
 ## 📝 Description
