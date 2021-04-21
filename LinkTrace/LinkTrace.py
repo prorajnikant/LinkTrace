@@ -679,7 +679,7 @@ def main():
                                      ]
                                     )
         print("EXITING MAIN")
-        return render_template("result",result = final)
+        return render_template("result.html",result = final)
         #return redirect(url_for('result.html', result=final))
 
 if __name__ == "__main__":
