@@ -449,6 +449,38 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewould"
   },
+  "Football": {
+    "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u0441 \u0442\u0430\u043a\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
+    "errorType": "message",
+    "url": "https://www.rusfootball.info/user/{}/",
+    "urlMain": "https://www.rusfootball.info/",
+    "username_claimed": "solo87",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "FortniteTracker": {
+    "errorType": "status_code",
+    "url": "https://fortnitetracker.com/profile/all/{}",
+    "urlMain": "https://fortnitetracker.com/challenges",
+    "username_claimed": "blue",
+    "username_unclaimed": "noonewouldeverusethis"
+  },
+  "Freelance.habr": {
+    "errorMsg": "<div class=\"icon_user_locked\"></div>",
+    "errorType": "message",
+    "regexCheck": "^((?!\\.).)*$",
+    "url": "https://freelance.habr.com/freelancers/{}",
+    "urlMain": "https://freelance.habr.com/",
+    "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Freelancer.com": {
+    "errorMsg": "\"users\":{}",
+    "errorType": "message",
+    "url": "https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D={}&compact=true",
+    "urlMain": "https://www.freelancer.com/",
+    "username_claimed": "red0xff",
+    "username_unclaimed": "noonewouldeverusethis"
+  },
   "GitHub": {
     "errorType": "status_code",
     "regexCheck": "^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}$",
