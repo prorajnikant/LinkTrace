@@ -1,11 +1,4 @@
 {
-  "geeksforgeeks": {
-    "errorType": "status_code",
-    "url": "https://auth.geeksforgeeks.org/user/{}",
-    "urlMain": "https://auth.geeksforgeeks.org",
-    "username_claimed": "prakhar",
-    "username_unclaimed": "noonewouldeverusethis"
-  },
   "2Dimensions": {
     "errorType": "status_code",
     "url": "https://2Dimensions.com/a/{}",
@@ -487,7 +480,8 @@
     "urlMain": "https://www.freelancer.com/",
     "username_claimed": "red0xff",
     "username_unclaimed": "noonewouldeverusethis"
-  },"Freesound": {
+  },
+  "Freesound": {
     "errorType": "status_code",
     "url": "https://freesound.org/people/{}/",
     "urlMain": "https://freesound.org/",
@@ -1616,6 +1610,13 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "geeksforgeeks": {
+    "errorType": "status_code",
+    "url": "https://auth.geeksforgeeks.org/user/{}",
+    "urlMain": "https://auth.geeksforgeeks.org",
+    "username_claimed": "prakhar",
+    "username_unclaimed": "noonewouldeverusethis"
+  },
   "geocaching": {
     "errorType": "status_code",
     "url": "https://www.geocaching.com/p/default.aspx?u={}",
@@ -1733,7 +1734,6 @@
     "username_claimed": "red",
     "username_unclaimed": "noonewouldeverusethis7"
   },
-
   "npm": {
     "errorType": "status_code",
     "url": "https://www.npmjs.com/~{}",
