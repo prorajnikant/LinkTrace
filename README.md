@@ -12,7 +12,7 @@ The GUI makes eveything more understandable and aesthetically pleasing.
 
 ## 📜 Instructions For Web version
 
-**Step 1)** Visit this URL [here](https://linktrace-test1.herokuapp.com/).
+**Step 1)** Visit this URL [here](https://linktrace.herokuapp.com/).
 
 **Step 2)** Just enter the username and click on search.
 
