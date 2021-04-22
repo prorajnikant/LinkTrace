@@ -447,7 +447,6 @@ def index_html():
 @app.route('/result', methods=['GET','POST'])
 def main():
     if request.method == 'POST':
-        print("Inside MAIN")
         get_username = request.form.get("usernameinput")
         version_string = f"%(prog)s {__version__}\n" +  \
                          f"{requests.__description__}:  {requests.__version__}\n" + \
@@ -645,7 +644,7 @@ def main():
                         file.write(dictionary["url_user"] + "\n")
                 file.write(f"Total Websites Username Detected On : {exists_counter}\n")
 
-            print(final)
+            #print(final)
 
             if args.csv:
                 result_file = f"{username}.csv"
@@ -679,10 +678,10 @@ def main():
                                          response_time_s
                                          ]
                                         )
-            print("EXITING MAIN")
             return render_template("result.html",result = final)
             #return redirect(url_for('result.html', result=final))
         else:
-            print("NOT POST")
+            #print("NOT POST")
+            pass
 if __name__ == "__main__":
 	app.run(debug=True)

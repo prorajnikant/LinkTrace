@@ -109,9 +109,7 @@ class SitesInformation():
         try:
             #data_file_path = os.getcwd()+"/resources/data.json"
             data_file_path=None
-            print("IN TRY")
         except:
-            print("IN EXCEPT")
             pass
         if data_file_path is None:
             # The default data file is the live data.json which is in the GitHub repo. The reason why we are using
@@ -125,7 +123,6 @@ class SitesInformation():
 
         if "http://"  == data_file_path[:7].lower() or "https://" == data_file_path[:8].lower():
             # Reference is to a URL.
-            print(data_file_path)
             try:
                 response = requests.get(url=data_file_path)
             except Exception as error:
