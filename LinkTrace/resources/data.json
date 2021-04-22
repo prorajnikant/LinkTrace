@@ -617,14 +617,6 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
-  "Houzz": {
-    "errorMsg": "The page you requested was not found.",
-    "errorType": "message",
-    "url": "https://houzz.com/user/{}",
-    "urlMain": "https://houzz.com/",
-    "username_claimed": "blue",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
   "HubPages": {
     "errorType": "status_code",
     "url": "https://hubpages.com/@{}",
