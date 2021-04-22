@@ -125,7 +125,7 @@ def get_response(request_future, error_type, social_network):
 
 def LinkTrace(username, site_data, query_notify,
              tor=False, unique_tor=False,
-             proxy=None, timeout=None):
+             proxy=None, timeout=10):
     """Run LinkTrace Analysis.
 
     Checks for existence of username on various social media sites.
