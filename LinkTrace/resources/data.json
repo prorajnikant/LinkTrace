@@ -1391,14 +1391,6 @@
     "username_claimed": "jenny",
     "username_unclaimed": "noonewouldeverusethis7"
   },
-  "VK": {
-    "errorType": "response_url",
-    "errorUrl": "https://www.quora.com/profile/{}",
-    "url": "https://vk.com/{}",
-    "urlMain": "https://vk.com/",
-    "username_claimed": "smith",
-    "username_unclaimed": "blah62831"
-  },
   "VSCO": {
     "errorType": "status_code",
     "url": "https://vsco.co/{}",
@@ -1603,13 +1595,6 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis"
   },
-  "fixya": {
-    "errorType": "status_code",
-    "url": "https://www.fixya.com/users/{}",
-    "urlMain": "https://www.fixya.com",
-    "username_claimed": "adam",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
   "geeksforgeeks": {
     "errorType": "status_code",
     "url": "https://auth.geeksforgeeks.org/user/{}",
@@ -1631,13 +1616,6 @@
     "username_claimed": "Test",
     "username_unclaimed": "noonewouldeverusethis7"
   },
-  "habr": {
-    "errorType": "status_code",
-    "url": "https://habr.com/ru/users/{}",
-    "urlMain": "https://habr.com/",
-    "username_claimed": "blue",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
   "hackster": {
     "errorType": "status_code",
     "url": "https://www.hackster.io/{}",
@@ -1652,14 +1630,6 @@
     "urlMain": "https://www.interpals.net/",
     "username_claimed": "blue",
     "username_unclaimed": "noneownsthisusername"
-  },
-  "jeuxvideo": {
-    "errorMsg": "Vous \u00eates",
-    "errorType": "message",
-    "url": "http://www.jeuxvideo.com/profil/{}?mode=infos",
-    "urlMain": "http://www.jeuxvideo.com",
-    "username_claimed": "adam",
-    "username_unclaimed": "noonewouldeverusethis7"
   },
   "kofi": {
     "errorType": "response_url",
