@@ -1,4 +1,4 @@
-## List Of Supported Sites (229 Sites In Total!)
+## List Of Supported Sites (228 Sites In Total!)
 1. [2Dimensions](https://2Dimensions.com/)
 1. [7Cups](https://www.7cups.com/)
 1. [9GAG](https://www.9gag.com/)
@@ -138,7 +138,6 @@
 1. [Polygon](https://www.polygon.com/)
 1. [PromoDJ](http://promodj.com/)
 1. [PyPi](https://pypi.org)
-1. [Quizlet](https://quizlet.com)
 1. [Quora](https://www.quora.com/)
 1. [Raidforums](https://raidforums.com/)
 1. [Rate Your Music](https://rateyourmusic.com/)
